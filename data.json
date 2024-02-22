@@ -1,0 +1,53 @@
+{
+  "admin": {
+    "home": {
+      "link": "/",
+      "title": "Home",
+      "path": "components/admin-area/home"
+    },
+    "about": {
+      "link": "/about",
+      "title": "About",
+      "path": "components/admin-area/about"
+    },
+    "contact": {
+      "link": "/contact",
+      "title": "Contact",
+      "path": "components/admin-area/contact"
+    }
+  },
+  "customer": {
+    "home": {
+      "link": "/",
+      "title": "Home",
+      "path": "components/customer-area/home"
+    },
+    "about": {
+      "link": "/about",
+      "title": "About",
+      "path": "components/customer-area/about"
+    },
+    "contact": {
+      "link": "/contact",
+      "title": "Contact",
+      "path": "components/customer-area/contact"
+    }
+  },
+  "client": {
+    "home": {
+      "link": "/",
+      "title": "Home",
+      "path": "components/client-area/home"
+    },
+    "about": {
+      "link": "/about",
+      "title": "About",
+      "path": "components/client-area/about"
+    },
+    "contact": {
+      "link": "/contact",
+      "title": "Contact",
+      "path": "components/client-area/contact"
+    }
+  }
+}
