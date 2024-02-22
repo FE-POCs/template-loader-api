@@ -3,51 +3,51 @@
     "home": {
       "link": "/",
       "title": "Home",
-      "path": "components/admin-area/home"
+      "path": "admin-area/home"
     },
     "about": {
       "link": "/about",
       "title": "About",
-      "path": "components/admin-area/about"
+      "path": "admin-area/about"
     },
     "contact": {
       "link": "/contact",
       "title": "Contact",
-      "path": "components/admin-area/contact"
+      "path": "admin-area/contact"
     }
   },
   "customer": {
     "home": {
       "link": "/",
       "title": "Home",
-      "path": "components/customer-area/home"
+      "path": "customer-area/home"
     },
     "about": {
       "link": "/about",
       "title": "About",
-      "path": "components/customer-area/about"
+      "path": "customer-area/about"
     },
     "contact": {
       "link": "/contact",
       "title": "Contact",
-      "path": "components/customer-area/contact"
+      "path": "customer-area/contact"
     }
   },
   "client": {
     "home": {
       "link": "/",
       "title": "Home",
-      "path": "components/client-area/home"
+      "path": "client-area/home"
     },
     "about": {
       "link": "/about",
       "title": "About",
-      "path": "components/client-area/about"
+      "path": "client-area/about"
     },
     "contact": {
       "link": "/contact",
       "title": "Contact",
-      "path": "components/client-area/contact"
+      "path": "client-area/contact"
     }
   }
 }

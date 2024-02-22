@@ -1,5 +1,6 @@
 const express = require("express");
 const data = require("./data.json");
+const users = require("./users.json");
 
 const app = express();
 const port = 8000;
@@ -28,6 +29,17 @@ app.get("/api/templates/:role/:page", (req, res, next) => {
     return res.json(data[role][page]);
   } else {
     next("Role not found!");
+  }
+});
+
+app.get("/api/users/:id", (req, res, next) => {
+  const id = req.params.id;
+  const user = users.find((user) => user.id == id);
+  console.log("\n\n", user, id, users, "\n\n");
+  if (!!user) {
+    return res.json(user);
+  } else {
+    next("User not found!");
   }
 });
 
