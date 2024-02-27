@@ -2,16 +2,19 @@
   {
     "name": "test 1",
     "role": "admin",
-    "id": 1
+    "roleId": 1,
+    "activeTemplate": "template1-area"
   },
   {
     "name": "test 2",
     "role": "client",
-    "id": 2
+    "roleId": 2,
+    "activeTemplate": "template2-area"
   },
   {
     "name": "test 3",
     "role": "customer",
-    "id": 3
+    "roleId": 3,
+    "activeTemplate": "template3-area"
   }
 ]

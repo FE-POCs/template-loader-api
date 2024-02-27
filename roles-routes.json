@@ -1,0 +1,98 @@
+{
+  "admin": {
+    "sub-template1": {
+      "link": "/admin",
+      "title": "Admin",
+      "path": "sub-template1"
+    },
+    "sub-template2": {
+      "link": "/admin",
+      "title": "Admin",
+      "path": "sub-template2"
+    },
+    "sub-template3": {
+      "link": "/admin",
+      "title": "Admin",
+      "path": "sub-template3"
+    },
+    "home": {
+      "link": "/",
+      "title": "Home",
+      "path": "home"
+    },
+    "about": {
+      "link": "/about",
+      "title": "About",
+      "path": "about"
+    },
+    "contact": {
+      "link": "/contact",
+      "title": "Contact",
+      "path": "contact"
+    }
+  },
+  "customer": {
+    "sub-template1": {
+      "link": "/admin",
+      "title": "Admin",
+      "path": "sub-template1"
+    },
+    "sub-template2": {
+      "link": "/admin",
+      "title": "Admin",
+      "path": "sub-template2"
+    },
+    "sub-template3": {
+      "link": "/admin",
+      "title": "Admin",
+      "path": "sub-template3"
+    },
+    "home": {
+      "link": "/",
+      "title": "Home",
+      "path": "home"
+    },
+    "about": {
+      "link": "/about",
+      "title": "About",
+      "path": "about"
+    },
+    "contact": {
+      "link": "/contact",
+      "title": "Contact",
+      "path": "contact"
+    }
+  },
+  "client": {
+    "sub-template1": {
+      "link": "/admin",
+      "title": "Admin",
+      "path": "sub-template1"
+    },
+    "sub-template2": {
+      "link": "/admin",
+      "title": "Admin",
+      "path": "sub-template2"
+    },
+    "sub-template3": {
+      "link": "/admin",
+      "title": "Admin",
+      "path": "sub-template3"
+    },
+    "home": {
+      "link": "/",
+      "title": "Home",
+      "path": "home"
+    },
+    "about": {
+      "link": "/about",
+      "title": "About",
+      "path": "about"
+    },
+    "contact": {
+      "link": "/contact",
+      "title": "Contact",
+      "path": "contact"
+    }
+  }
+}

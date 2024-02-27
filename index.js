@@ -1,5 +1,5 @@
 const express = require("express");
-const data = require("./data.json");
+const data = require("./roles-routes.json");
 const users = require("./users.json");
 
 const app = express();
@@ -28,18 +28,18 @@ app.get("/api/templates/:role/:page", (req, res, next) => {
   if (!!data[role] && !!data[role][page]) {
     return res.json(data[role][page]);
   } else {
-    next("Role not found!");
+    next(`Role ${role} <==> ${page} not found!`);
   }
 });
 
 app.get("/api/users/:id", (req, res, next) => {
   const id = req.params.id;
-  const user = users.find((user) => user.id == id);
+  const user = users.find((user) => user.roleId == id);
   console.log("\n\n", user, id, users, "\n\n");
   if (!!user) {
     return res.json(user);
   } else {
-    next("User not found!");
+    next(`User ${id} not found!`);
   }
 });
 
